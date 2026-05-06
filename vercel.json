@@ -1,7 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
   "buildCommand": "npm run build",
-  "outputDirectory": ".tanstack-output",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": null
+  "outputDirectory": "dist"
 }
